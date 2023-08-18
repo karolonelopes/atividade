@@ -5,25 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        max-width: 1080px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header{
+        background-color: aqua;
+        width: 100%;
+    }
+    .menu{
+        width: 50%;
+    }
+    .logo,.sociais{
+        width: 25%;
+    }
+    .logo img{ 
+        width: 150PX;
+    }
+
+    .menu nav a{
+        color: black;
+        text-decoration: none;
+        padding-right: 50px;
+        font-size: 18px;
+    }
+    .sociais button{
+        background-color: white;
+        padding: 10px;
+        border-radius: 10%;
+        font-size: 12px;
+    }
+</style>
 <body>
     <header>
         <div class="container">
-          </div class="logp">
-          <img src="tech/Fé.jpg">
-         </div>
-        </div class="menu">
-             <nav>
-                 <a href="#">home</a>
-                <a href="#">sobre</a>
-                <a href="#">contato</a>
-                <a href="#">quem somos</a>
-             </nav>
-        <div>
-        <div class="sociais">
-            <button>Fecebook</button>
-            <button>Instagram</button>
+            <div class="logo">
+                <img src="tech/Fé.jpg">
+            </div>
+            <div class="menu">
+                <nav>
+                    <a href="#">home</a>
+                    <a href="#">sobre</a>
+                    <a href="#">contato</a>
+                    <a href="#">quem somos</a>
+                </nav>
+            </div>
+            <div class="sociais">
+                <button>FACEBOOK</button>
+                <button>INSTAGRAM</button>
+            </div>
         </div>
-      </div>
     </header>
 
     
