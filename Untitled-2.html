@@ -1,70 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caroline-Noite</title>
+    <title>documento</title>
+
 </head>
+<>
 <style>
-    BODY{
-        background-color:rgb(190, 83, 11)
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        max-width: 100px;
+        margin:auto;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+    }
+    header{
+        background-color: black;
+        width: 100%;
+    }
+    .menu{
+        width: 50%;
+    }
+    .lago,.sociais{
+        width: 25%;
+    }
+    .logo img{
+        width: 10 vw;
+    }
+    .menu nav a{
+        color:aqua;
+        text-decoration:none;
+        padding : right 50px;
+        font-size: 18px;
+    }
+    .social button {
+        background-color: antiquewhite;
+        padding: 10px;
+        border-radius: 25%;
+        font-size: 1vw;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     } 
-    #limage{
-    border-radius: 20%;
-        border: 15px solid;
-        height: 400px;''
-        width: 400px;
-        margin-left: 39%;
-    } 
-    #image{
+    .container2{
+        display: flex;
         align-items: center;
         justify-content: center;
-        margin-left: 40%;
-        border-radius: 10%;
-        border: 10px solid;
-        border-color: red;
+        padding-top: 25px;
+        padding-left: 5%;
+        padding-right: 5%;
+   
     }
+    .div1{
+        background-color: aqua;
+        border:2px solid;
+        border-color: azure;
+        width:20%;
+        padding-left: 10px;
+    }
+    .div1 img{
+        width: 200px;
+      
+    }
+    .meio{
+        width: 5%;
+    }
+    .div2{
+        background-color: aliceblue;
+        align-items:center;
+        justify-content: center;
+        display:flex;
+        align-items: center;
+        border:2px solid;
+        border-color:aqua;
+    }
+   
 </style>
+ 
 </body>
- <h1>Minha 1ª Avaliação Somativa</h1>
-<img src="u.1.jpg" width="400" height="400" id="image">
+    <header>
+        <div class="container">
+          <div class="logo"> 
+            <img src="images (3).jfif">
+        </div>
+        <div>
+            <div class="menu">
+                <nav>
+                    <a href="#">Pagina inicial</a>
+                    <a herf="#">Home</a>
+                    <a herf="#">cliente</a>
+                    <a href="#">contato</a>
+                </nav>
+        </div>
+        <div class="socias">
+            <button>facebook</button>
+            <button>instram</button>
+        </div>
+    </header>
+    <div class="container2">
+        <div class="div1">
+            <h1> Ciencia humanas/Natureza</h1>
+            <img src="img5.jfif">
 
- <hr>
- <table border="1" id="tabela">
-    <thead>
-        <tr>
-            <th>Foto</th>
-            <th>Nome</th>
-            <th>Cidade</th>
-            <th>Bairro</th>
-            <th>endereço</th>
-            <th>Numero</th>
-            <th>Telefone</th>
-        </tr>
-    </thead>
-   <tbody>
-            <th>-</th>
-            <th>-</th>
-            <th>-</th>
-            <th>-</th>
-            <th>-</th>
-            <th>-</th>
-            <th>-</th>
-   </tbody>
- </table>
- <hr>
- <h1>Formato do computador</h1>
- <ol>
-    <li>Processador</li>
-    <li>Placa-mãe</li>
-    <li>memoria ram</li>
-    <li>CD/DVD</li>
-    <li>Gabinete</li>
-    <li>HD</li>
-    <li>SSD</li>
-    <li>Fonte de alimentação</li>
- </ol> 
- <HR>
- <a href="curriculo-2.html"style="color: white; font-size: 20px">entrar
-</a>
+        </div>
+        <div class="meio"></div>
+        <div class="div2">
+            <h1>Medicina</h1><p></p>
+             <span> ciência que estuda a saúde como um todo. Seu objetivo é prevenir e combate
+                doenças, manter a qualidade de vida  e promover
+                 o bem-estar, seja ele individual ou coletivo.
+            </span><p></p>
+        
+        </div>
+        <form>
+            <input type="text" placeholder="nome">
+            <input type="number"placeholder="numero">
+            <input type="email" placeholder="email">
+            <input type="data" placeholder="data">
+            <input type="search" placeholder="pesquisar">
+            <input type="submit" placeholder="enviar">
+            <input type="submit" placeholder="entrar">
+        </form>
+        <input type="radio" name="genero" value="m">masculino
+        <input type="radio" name="genero" value="f">feminino
+        <input type="checkbox" name="interesse" value="futebol">
+        <input type="checkbox"name="interesse" value="volei">
+        <input type="checkbox" name="interesse" value="basquete">
+        <input type="checkbox" name="interesse" value="tenis">
+        <input type="range">
+        <input type="color">
+        <fieldset> 
+            <legend>selecione o seu estado</legend>
+        <input type="text" placeholder="nome">
+        <input type="number"placeholder="numero">
+        <input type="email" placeholder="email">
+        <input type="data" placeholder="data">
+        <input type="search" placeholder="pesquisar">
+        <input type="submit" placeholder="enviar">
+        <input type="submit" placeholder="entrar">
+    </fieldset>
+</body>
+    </div>   
+    </div>
+    <body>
+
+    </body>
+
 </html>
