@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login do Facebook</title>
-    <style>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login do Facebook</title>
+        <style>
         body {
             font-family: Arial, sans-serif;
             background-color: whitesmoke;
@@ -18,13 +18,14 @@
             margin-right: -700px;
         }
         .container {
-            background-color: white;
-            width: 300px;
+            /* background-color: white; */
+            width: 1080px;
             padding: 20px;
             box-shadow: 0 4px 6px whitesmoke;
             border-radius: 10px;
             margin-top: -9%;
             margin-left: 50%;
+            display: flex;
         }
         .Facebook {
             text-align: center;
@@ -32,10 +33,12 @@
         }
         .login-form {
             text-align: center;
+            width: 300px;
+            border: 1px solid black;
         }
         .login-form input[type="text"],
         .login-form input[type="password"] {
-            width: 100%;
+            width: 80%;
             padding: 10px;
             margin-bottom: 20px;
             border: 1px solid whitesmoke;
@@ -50,82 +53,99 @@
             border-radius: 4px;
             cursor: pointer;
         }
-        .letras{
-            margin-top: -8%;
-            margin-left: -27%;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 39px;
-            color: rgb(21, 78, 153);
-        }
+      
         .escrita{
-            margin-top: -8%;
-            margin-left: -15%;
+            /* margin-top: -8%;
+            margin-left: -15%; */
             font-family:Arial, Helvetica, sans-serif;
             font-size: 18px;
         }
         .final{
             margin-top: 12%;
-            margin-left: 6%;
+            /* margin-left: 6%; */
             color: black;        
         }
-        .Rodapé{
+        /* .Rodapé{
             text-align: center;
             width:80%;
             background-color: rgb(255, 255, 255);
             margin-top: 28%;
-            margin-left: -65%;
+            margin-left: 0;
             font-size: 14px;
+        } */
+        @media screen and (max-width: 768px){
+            .FACEBOOK h2{
+                font-size: 10vw;
+            }
+            .container{
+                width: 100vw;
+                display: block;
+                /* margin-left: -300px; */
+            }
         }
+        /* @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+} */
     </style>
-</head>
-<body>
-    <div class="container">
-        <div class="FACEBOOK">
-           
-        </div>
-        <div class="login-form">
-            <form action="seu_script_de_autenticacao.php" method="POST">
-                <input type="text" name="email" placeholder="Email ">
-                <input type="text" name="numero" placeholder="numero de telefone">
-                <input type="password" name="senha" placeholder="Senha">
-                <input type="submit" value="Entrar">
-                <input type="submit" value="volta">
-                <p></p>
-                <hr>
-                <input style="background-color: rgb(25, 190, 25); color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" type="submit" value="Criar nova Conta">
-            </form>
-            
-        </div>
-    </div>
-    <div class="letras">
-        <h2>facebook</h2>
-    </div>
-    <div class="escrita">
-    <h5>O Facebook ajuda você a se conectar e compartilhar com as pessoas</h5>
-    <h5>que fazem parte da sua vida.</h5>
-    </div>
-    <div class="final">
-    <a href="Crie uma Página">Crie uma Página</a> para uma celebridade, uma marca ou uma empresa.
-    </div>
+    </head>
+    <body>
+        <div class="container">
+            <div class="FACEBOOK">
+                <h2>facebook</h2>
+                <h5>O Facebook ajuda você a se conectar e compartilhar com as
+                    pessoas</h5>
+                <h5>que fazem parte da sua vida.</h5>
+            </div>
 
-    <div class="Rodapé">
-    <p>Português (Brasil)
-        English (US)
-        Español
-        Français (France)
-        Italiano
-        Deutsch
-        العربية
-        हिन्दी
-        中文(简体)
-        日本語
-    </p>
-    <hr >
-        <p>Cadastre-se Entrar Messenger Facebook Lite Vídeo Locais Jogos Marketplace Meta Pay Loja da Meta Meta Quest Instagram Threads </p>
-        <p>Campanhas de arrecadação de fundos Serviços Central de Informações de Votação Política de Privacidade Central de Privacidade Grupos Sobre Criar anúncio
-        <p>Criar Página Desenvolvedores Carreiras Cookies Escolhas para anúncios Termos Ajuda Carregamento de contatos e não usuários</p>
-        <p>Meta © 2023</p>
+            <div class="login-form">
+                <form action="seu_script_de_autenticacao.php" method="POST">
+                    <input type="text" name="email" placeholder="Email ">
+                    <input type="text" name="numero"
+                        placeholder="numero de telefone">
+                    <input type="password" name="senha" placeholder="Senha">
+                    <input type="submit" value="Entrar">
+                    <input type="submit" value="volta">
+                    <p></p>
+                    <hr>
+                    <input
+                        style="background-color: rgb(25, 190, 25); color: white; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"
+                        type="submit" value="Criar nova Conta">
+                </form>
+                <div class="final">
+                    <a href="Crie uma Página">Crie uma Página</a> para uma
+                    celebridade,
+                    uma marca ou uma empresa.
+                </div>
+            </div>
 
-    </div>
-</body>
+        </div>
+
+        <!-- <div class="Rodapé">
+            <p>Português (Brasil)
+                English (US)
+                Español
+                Français (France)
+                Italiano
+                Deutsch
+                العربية
+                हिन्दी
+                中文(简体)
+                日本語
+            </p>
+            <hr>
+            <p>Cadastre-se Entrar Messenger Facebook Lite Vídeo Locais Jogos
+                Marketplace Meta Pay Loja da Meta Meta Quest Instagram Threads
+            </p>
+            <p>Campanhas de arrecadação de fundos Serviços Central de
+                Informações de Votação Política de Privacidade Central de
+                Privacidade Grupos Sobre Criar anúncio
+                <p>Criar Página Desenvolvedores Carreiras Cookies Escolhas para
+                    anúncios Termos Ajuda Carregamento de contatos e não
+                    usuários</p>
+                <p>Meta © 2023</p>
+
+            </div> -->
+    </body>
 </html>
