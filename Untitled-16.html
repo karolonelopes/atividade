@@ -7,7 +7,7 @@
 </head>
 <body>
     <style>
-       body{
+        body{
         background-color: antiquewhite;
     }
     *{
@@ -18,9 +18,6 @@
     .container{
         max-width: 1080;
         margin: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
     header{
         background-color: rgb(0, 47, 255);
@@ -31,13 +28,13 @@
     }
     .logo, .sociais{
         width:30%;
-        margin: auto;
+        margin: none;
         margin-right: 10%;
-
+    
     }
     .logo img{
         width:30% ;
-       
+        
     }
     .menu nav a{
         color: black;
@@ -52,96 +49,114 @@
         font-size: 12px;
         font-family: Arial, Helvetica, sans-serif;
     }
-   
+    
     .quadrado{
     width: 300px;
     text-align: center;
     background-color: rgb(231, 229, 229);
     border: 2px solid rgb(204, 202, 202);
-    margin: auto;
     margin-right: 40%;
     margin-right: 10%;
-       padding: 50px;
+    padding: 50px;
     border-radius: 10px;
-}
-#escrita{
-        text-align: center;
-        color:rgb(255, 255, 255); 
-                 font-size: 25px;
-}
- #centralizar{
-        text-align: center;
-        font-family:"Courier New";
-         color:transparent; 
-         font-size: 20px;
-}
-.email{
-    margin-top: -5%;
-    width: 100%;
-    padding: 5%;
-    margin-right: 30px;
-    margin-left: -7%;
-    border-radius: 10px;
-    border: 3px solid rgb(208, 206, 206);
-}
-.Senha{
-    width: 100%;
-    padding: 5%;
-    margin-right: 30px;
-    margin-left: -7%;
-    border-radius: 10px;
-    border: 3px solid rgb(208, 206, 206);
-}
-.botao{
-    width: 100%;
-    padding: 5%;
-    background-color:rgb(237, 176, 62);
-    border: 1px solid rgb(1, 1, 5);
-    border-radius: 20px;
-    font-size: 20px;
-    font-family: Arial, sans-serif ;
-    color: rgb(254, 254, 254);
-}
-.letras{
-    margin-top: -20%;
-    margin-left: 10%;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
-    color:rgb(235, 155, 63);
-}
-
-
-.tradução{
-        text-align: center;
+    margin: auto;
+    }
+    #escrita{
+            text-align: center;
+            color:rgb(255, 255, 255); 
+                     font-size: 25px;
+    }
+     #centralizar{
+            text-align: center;
+            font-family:"Courier New";
+             color:transparent; 
+             font-size: 20px;
+    }
+    .email{
         margin-top: -5%;
+        width: 100%;
+        padding: 5%;
+        margin-right: 30px;
         margin-left: -7%;
-        
+        border-radius: 10px;
+        font-size: 15px;
+        border: 3px solid rgb(208, 206, 206);
     }
-    .final{
-        margin-left: 20%;
+    .Senha{
+        width: 100%;
+        padding: 5%;
+        margin-right: 30px;
+        margin-left: -7%;
+        border-radius: 10px;
+        font-size: 15px;
+        border: 3px solid rgb(208, 206, 206);
     }
-</style>
-<body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <img src="download.jpeg">
+    .botao{
+        width: 100%;
+        padding: 5%;
+        background-color:rgb(255, 101, 0);
+        border: 1px solid rgb(1, 1, 5);
+        border-radius: 20px;
+        font-size: 20px;
+        font-family: Arial, sans-serif ;
+        color: rgb(254, 254, 254);
+    }
+    .botao2{
+        width: 90%;
+        font-size: 20px;
+        color:rgb(255, 101, 0);
+    }
+    .letras{
+        margin: 10px 10px;
+        margin-top: -20%;
+        margin-left: 10%;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px;
+        color:rgb(255, 101, 0);
+    }
+    .esqueceu{
+        font-size: 18px;
+        color: black;
+    }
+    
+    
+    .tradução{
+            text-align: center;
+            margin-top: -5%;
+            margin-left: -7%;
+            
+        }
+        .final{
+            margin-left: 20%;
+        }
+    </style>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="download.jpeg" height="100px" width="100px">
+                </div>
             </div>
-        </div>
+        </header>
+    
+        <br><br>
+    
         <div class="quadrado">
-       
-            <input type="email" placeholder="Email ou telefone" class="email"/><br/> </p>
-            <input type="password" placeholder="Senha" class="Senha"/><br/></p>
-            <input type="submit" value="ENTRAR" onclick="window.location.href='./email.html' "class="botao">
-            <p></p>
-            <a href="esqueceuasenha.html">Esqueceu a senha?</a></br>
-            <p></p>
+            <p></p><h2 class="letras">Fazer login</h2><br>
+            <input type="email" placeholder="Email ou CPF" class="email"/><br/>
+            <input type="password" placeholder="Senha" class="Senha"/><br/><br></p>
+            <input type="submit" value="ENTRAR" onclick="window.location.href='./email.html' "class="botao"><br><br>
+            
+            <div class="esqueceu">
+                <a href="esqueceuasenha.html">Esqueceu a senha?</a></br>
+            </div>
+            
             <hr>
-            <input type="submit" value="Criar Nova Conta" onclick="window.location.href='./novaConta.html' "class="botao2">
+            <br><input type="submit" value="Criar Nova Conta" onclick="window.location.href='./novaConta.html' "class="botao2">
         </div>
-        <div class="letras">
-            <h1>Fazer login</h1>
-        
-        
+            
+    </body>
+    </html>
+    
 </body>
 </html>
