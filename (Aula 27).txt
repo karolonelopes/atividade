@@ -1,0 +1,78 @@
+(Aula 27)
+
+ UX  E UI:
+ UX; user experience(esperiência do usuário),ele é responsável pelo planejamento e organização de como um produto funciona para que seja fácil ou agradável para o usuario final.
+
+ Quais seriam objetivo do UX:
+
+1- Sastifazer as necessidades do usuário;
+2- Ajudar a desenvolver produto/ serviços fáceis de usar;
+3- Dar controle e liberdade para os usuários;
+
+Desta forma, o UX Design tem a função de proporcionar uma jornada mais flúida e agradável, melhoramento a interação e a experiência entre as pessoas que estão utilizando o site,ou APP.
+
+...............................................................................................................................................................................................................
+
+
+
+
+UI; significa user interface , que seria referente a interfaces gráficas com as quais os usuário conseguem interagir.
+
+Dessa forma , UI designers trabalham com aspecto visual de um produto digital , ou seja , o quão agradável é a estética da interface.
+
+Interfaces gráficas: os usuário interagem com as reprentação Visuais em um painel de controle por exemplo. um exemplo de interface gráficas é a própria áreaa de trabalho.
+
+Interfaces do controle de voz: Basicamente quando a interação acontece por voz, como com as assistentes virtuais.
+
+Interface gestuais: quando a interação acontece através de espaço em 3D e movimentos corporais, como por exemplo,jogos de realidade virtual.
+
+...............................................................................................................................................................................................................
+
+1- O que Faz um UI Designer?
+2- O que faz um UX Designer?
+3- Como anda o mercado brasileiro para UI Designers?
+4- Onde pode trabalhar um UI Designers?
+5-Quanto ganha um UI Designer e um UX Designer?
+6- Existe algum requisito para começar aprender sobre UI Design?
+7- Onde encontramos um UI Design?
+8- Qual diferença entre UI e UX Design?
+9- Web Desgn e UI Design não são parecidos/
+10- Qual a importância da prática em UI/UX?
+11- O que significa Design?
+12- Quando um processo de UX Design é implementado?
+13- O que é user Flow (Fluxo de usuário)?
+14= Como implementar UX no dia-a-dia?
+15- Como implentar UI no dia-a-dia?
+......................................................................................................................................................................................................
+Respostas:
+
+1-Responsável por criar o layout, cores, tipografia e elementos gráficos que compõem a interface do produto.Como todo designer gráfico, o objetivo de um UI Designer é resolver problemas visuais. Ele simplifica a vida das pessoas ao proporcionar experiências satisfatórias na realização de tarefas do cotidiano, principalmente no ambiente digital.
+
+2-Atua com a jornada do usuário e visualiza os pontos de contato entre plataforma e público. O profissional deverá cuidar dos itens que perpassam a experiência do cliente e são passíveis de atingir as percepções, emoções e comportamentos das pessoas que usufruem de determinado produto ou serviço.
+
+3- O mercado de UX/UI Design está em grande expansão. A oferta de cursos e treinamentos para a área de UX/UI Design é evidente, o que é bom, visto que existe de fato uma necessidade enorme desse tipo de profissional no mercado brasileiro e mundial.19 de jan. de 2022.Para inicinte o sálario é 3.012,00,média sálarial é 4.532,00.
+
+4-Equipes de Design, departamentos de TI de grandes empresas.  desenvolve e organiza interfaces em sites, aplicativos, softwares e dispositivos. objetivo é possibilitar que o acesso a essas plataformas seja simplificado, intuitivo e confortável para o usuário.
+
+5-Média salarial para UX / UI Designer no Brasil é de R$ 4.532,00. Iniciante ganhando R$ 3.012,00 de salário e pode vir a ganhar até R$ 6.169,00.
+
+6-Carreira de UI Design promete grandes projetos e vencimentos bastante competitivos.qualquer um pode começar nela, mas é preciso preparação. PAra Entender o trabalho e se qualificar adequadamente,são fundamentais para começar no setor.
+
+7-
+Foco no usuário;stratégia de negócios,meta proporcionar uma experiência positiva para o cliente durante toda sua jornada.
+Asana;Auxilia equipes e gestores a organizar, rastrear e gerenciar o trabalho como um todo.
+Gumroad.
+Headspace.
+Hello Monday.
+Dribbble.
+Principais aprendizados.
+Perguntas Frequentes.
+
+8-UI representa a interface gráfica, ou seja, é o que o usuário vê e com o que ele interage com o produto. UX vai além do físico e procura entender o usuário de forma mental e emocional.
+
+9-Designer de interfaces pode projetar todo tipo de interface inclusive as digitais e para web, como os websites. E é por isso que o Web Design e o UI Design são “parecidos”.
+
+10-trabalha para que os clientes se sintam bem sempre. 
+
+11-tividade responsável pelo planejamento, criação e desenvolvimento de produtos e serviços. 
+3-
