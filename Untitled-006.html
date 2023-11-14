@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>006</title>
+    <link rel="stylesheet" href="html6.css">
+</head>
+<ul>
+    <li> <a href="https://Untitled-006/EX006">EX006</a> Somando dois números</li>
+</ul>
+<body>
+    <style>
+        body { font: 12pt Arial; }
+        button { font-size: 12pt; padding: 30px; }
+    </style>
+      <button onclick="somar()">Soma</button>
+      <section id="res">
+          <p>O resultado...</p>
+      </section>
+  
+      <script>
+      
+          function somar() {
+              let n1 = Number(window.prompt('Digite um número: '))
+              let n2 = Number(window.prompt('Digite outro número:'))
+              soma = n1 + n2
+  
+              let res = document.querySelector('section#res')
+              res.innerHTML = `<p>A soma entre <mark>${n1}</mark> e <mark>${n2}</mark> é igual a <strong>${soma}</strong>!</p>`
+          }
+      </script>
+</body>
+<script src="JS.JS"></script> 
+</html>
