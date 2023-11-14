@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>004</title>
+    <link rel="stylesheet" href="html4.css">
+</head>
+<ul>
+    <li> <a href="https://Untitled-04/EX004">EX004</a> Interagindo com partes do HTML (DOM)</li>
+</ul>
+<style>
+    body { font: 12pt Arial; }
+    button { font-size: 12pt; padding: 30px; }
+</style>
+<body>
+    <button onclick="inicio()">Clique para iniciar</button>
+    <section id="resultado">
+        <p>resultado... </p>
+    </section>
+    <script>
+        function inicio() {
+            let nome = window.prompt('Digite o seu nome?')
+            let res = window.document.getElementById('resultado')
+            res.innerHTML = `<p>Olá,Seja bem-vindo(a) <strong>${nome}</strong>! É um grande prazer te receber! &#x1F596;`
+        }
+    </script>
+</body>
+<script src="JS.JS"></script> 
+</html>
